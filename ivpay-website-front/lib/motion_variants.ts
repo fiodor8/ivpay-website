@@ -4,8 +4,8 @@ export const clipPathVariant = {
         clipPath: 'inset(0 0% 0 0)',
         transition: {
             when: "beforeChildren",
-            staggerChildren: 0.15,
-            duration: 0.15
+            staggerChildren: 0.25,
+            duration: 0.25
         }
     }
 };
@@ -23,7 +23,7 @@ export const OpacityVariant = {
 export const containerVariants = {
     visible: {
         transition: {
-            staggerChildren: 0.15
+            staggerChildren: 0.25
         }
     }
 };
